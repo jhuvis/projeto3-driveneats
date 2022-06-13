@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DrivenEats</title>
+  </head>
+  <body>
+      <div class="top">
+        <div>
+            <p class="t1">DrivenEats</p>
+            <p class="t2">Sua comida em 6 minutos</p>
+        </div>
+      </div>
+      <div class="bod">
+        <div class="prato">
+        <p class="c1t">Primeiro, seu prato</p>
+          <div class="c1">
+            <div class="center">
+              <div class="itens" onclick="prato(0);">
+                <img class="img"src="img/frango_yin_yang 1.png">
+                <p class="i1">Frango Yin Yang</p>
+                <p class="i2">Um pouco de batata, um pouco de salada</p>
+                <div class="toma">
+                <div><p class="i3">R$ <span class="preco">17,90</span></p></div>
+                <div><img class="c1i" src="img/Vector.png"></div>
+                </div>
+              </div>
+              </div>
+              <div class="center">
+              <div class="itens" onclick="prato(1);">
+                <img class="img" src="img/parmegiana.png">
+                <p class="i1">Parmegiana de carne</p>
+                <p class="i2">Um pouco de parmegiana com queijo e salada</p>
+                <div class="toma">
+                <div><p class="i3">R$ <span class="preco">19,90</span></p></div>
+                <div><img class="c1i" src="img/Vector.png"></div>
+                </div>
+                </div>
+              </div>
+              <div class="center">
+              <div class="itens" onclick="prato(2);">
+                <img class="img"src="img/File.png">
+                <p class="i1">File mignon</p>
+                <p class="i2">Um pouco de batata, e um mignon suculento</p>
+                <div class="toma">
+                <div><p class="i3">R$ <span class="preco">23,90</span></p></div>
+                <div><img class="c1i" src="img/Vector.png"></div>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="prato">
+          <p class="c1t">Segundo, sua sobremesa</p>
+            <div class="c1">
+              <div class="center">
+                <div class="itens" onclick="sobremesa(3);">
+                  <img class="img"src="img/pudim.png"/>
+                  <p class="i1">Pudim</p>
+                  <p class="i2">Apenas um pudim</p>
+                  <div class="toma">
+                  <div><p class="i3">R$ <span class="preco">5,90</span></p></div>
+                  <div><img class="c1i" src="img/Vector.png"></div>
+                  </div>
+                </div>
+                </div>
+                <div class="center">
+                <div class="itens" onclick="sobremesa(4);">
+                  <img class="img"src="img/tiramisu.png">
+                  <p class="i1">Tiramisu</p>
+                  <p class="i2">hmmm cafézinho</p>
+                  <div class="toma">
+                  <div><p class="i3">R$ <span class="preco">9,90</span></p></div>
+                  <div><img class="c1i" src="img/Vector.png"></div>
+                  </div>
+                </div>
+                </div>
+                <div class="center">
+                <div class="itens" onclick="sobremesa(5);">
+                  <img class="img"src="img/banana.png">
+                  <p class="i1">Sorvete de banana</p>
+                  <p class="i2">Banana</p>
+                  <div class="toma">
+                  <div><p class="i3">R$ <span class="preco">12,90</span></p></div>
+                  <div><img class="c1i" src="img/Vector.png"></div>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="prato">
+            <p class="c1t">terceiro, sua bebida</p>
+              <div class="c1">
+                <div class="center">
+                  <div class="itens" onclick="bebida(6);">
+                    <img class="img"src="img/coca.png">
+                    <p class="i1">Coca gelada</p>
+                    <p class="i2">Lata 350ml</p>
+                    <div class="toma">
+                    <div><p class="i3">R$ <span class="preco">4,90</span></p></div>
+                    <div><img class="c1i" src="img/Vector.png"></div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="center">
+                  <div class="itens" onclick="bebida(7);">
+                    <img class="img"src="img/Guarana.png">
+                    <p class="i1">Guarana gelada</p>
+                    <p class="i2">Lata 350ml</p>
+                    <div class="toma">
+                    <div><p class="i3">R$ <span class="preco">4,50</span></p></div>
+                    <div><img class="c1i" src="img/Vector.png"></div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="center">
+                  <div class="itens" onclick="bebida(8);">
+                    <img class="img"src="img/laranja.png">
+                    <p class="i1">Suco de laranja</p>
+                    <p class="i2">Copo 500ml</p>
+                    <div class="toma">
+                    <div><p class="i3">R$ <span class="preco">5,90</span></p></div>
+                    <div><img class="c1i" src="img/Vector.png"></div>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="fechado">
+        <p>Confirme o seu pedido</p>
+        <div class="esse">
+          <p class="prato1">lalaaaaaa</p><p class="preco1">1</p>
+        </div>
+        <div class="esse">
+          <p class="prato2">lalala</p><p class="preco2">2</p>
+        </div>
+        <div class="esse">
+          <p class="prato3">laaaaa</p><p class="preco3">3</p>
+        </div>
+        <div class="esse">
+          <p>Total</p><p class="total">R$5</p>
+        </div>
+        <div class="zapzap">
+          <p onclick="zapzap();">Tudo certo, pode pedir!</p>
+        </div>
+        <p onclick="cancelar()">Cancelar</p>
+      </div>
+      <div class="baixo">
+          <div class="botao" onclick="pedido();">
+              <p>Selecione os 3 itens</p><p> para fechar o pedido</p>
+          </div>
+      </div>
+      <script>
+        const itens = document.querySelectorAll(".itens");
+        const ci = document.querySelectorAll(".c1i");
+        const i1 = document.querySelectorAll(".i1");
+        const preco = document.querySelectorAll(".preco");
+        const bote = document.querySelector(".botao");
+        const fechado = document.querySelector(".fechado");
+        alert(itens.length);
+        let p = 0;
+        let s = 3;
+        let b = 6;
+        let countP = false;
+        let countS = false;
+        let countB = false;
+
+        function zapzap()
+        {
+          const preco1 = document.querySelector(".preco1");
+          const preco2 = document.querySelector(".preco2");
+          const preco3 = document.querySelector(".preco3");
+
+          const prato1 = document.querySelector(".prato1");
+          const prato2 = document.querySelector(".prato2");
+          const prato3 = document.querySelector(".prato3");
+            
+          const celular = "559999045111";
+          var texto = "Olá, gostaria de fazer o pedido: \n - Prato: " + prato1.innerHTML + 
+          " \n - Sobremesa: "+ prato2.innerHTML +" \n - Bebida: "+ prato3.innerHTML + 
+          "\n Total: "+ document.querySelector(".total").innerHTML +
+          "\n \n Nome: "+ prompt('Digite Seu nome') + "\n Endereço: " + prompt('Digite seu endereço');
+          texto = window.encodeURIComponent(texto);
+  
+          window.open("https://api.whatsapp.com/send?phone=" + celular + "&text=" + texto, "_blank");
+	      
+        }
+
+        function cancelar()
+        {
+          document.querySelector(".top").classList.remove("top1");
+          document.querySelector(".bod").classList.remove("bod1");
+          document.querySelector(".baixo").classList.remove("baixo1");
+          fechado.classList.remove("fechado1");
+        }
+
+        function pedido()
+        {
+          if(bote.classList.contains("botao1")==true)
+          {
+            fechado.classList.add("fechado1");
+            const prato1 = document.querySelector(".prato1");
+            prato1.innerHTML = i1[p].innerHTML;
+            const preco1 = document.querySelector(".preco1");
+            preco1.innerHTML = preco[p].innerHTML;
+
+            const prato2 = document.querySelector(".prato2");
+            prato2.innerHTML = i1[s].innerHTML;
+            const preco2 = document.querySelector(".preco2");
+            preco2.innerHTML = preco[s].innerHTML;
+
+            const prato3 = document.querySelector(".prato3");
+            prato3.innerHTML = i1[b].innerHTML;
+            const preco3 = document.querySelector(".preco3");
+            preco3.innerHTML = preco[b].innerHTML;
+
+            let j1 = Number((preco1.innerHTML).replace(",", "."));         
+            let j2 = Number((preco2.innerHTML).replace(",", "."));
+            let j3 = Number((preco3.innerHTML).replace(",", "."));
+
+            document.querySelector(".total").innerHTML = "R$ " + (j1 + j2 + j3).toFixed(2);
+
+            document.querySelector(".top").classList.add("top1");
+            document.querySelector(".bod").classList.add("bod1");
+            document.querySelector(".baixo").classList.add("baixo1");
+          }
+            
+        }
+        
+
+        function prato(n) 
+        {
+          if(n!=p)
+          {
+            itens[p].classList.remove("itens1");
+            ci[p].classList.remove("c1i1");
+            
+            itens[n].classList.add("itens1");
+            ci[n].classList.add("c1i1");
+            p = n;
+          } 
+          else if(n == p)
+          {
+            
+            itens[n].classList.toggle("itens1");
+            ci[n].classList.toggle("c1i1");
+            p = n;
+
+          }  
+          
+          countP = itens[n].classList.contains("itens1");
+          
+          if(countP && countB && countS == true)
+          {
+            bote.classList.add("botao1");
+            bote.innerHTML = "Fechar pedido";
+          }
+          else
+          {
+            bote.classList.remove("botao1");
+            bote.classList.add("botao");
+            bote.innerHTML = "<p>Selecione os 3 itens</p><p> para fechar o pedido</p>";
+          }
+          
+        }
+
+        function sobremesa(n) 
+        {
+          if(n!=s)
+          {
+            itens[s].classList.remove("itens1");
+            ci[s].classList.remove("c1i1");
+
+            itens[n].classList.add("itens1");
+            ci[n].classList.add("c1i1");
+
+            s = n;
+          } 
+          else if(n == s)
+          {
+            
+            itens[n].classList.toggle("itens1");
+            ci[n].classList.toggle("c1i1");
+            s = n;
+          }
+
+          countS = itens[n].classList.contains("itens1");
+          
+          if(countP && countB && countS == true)
+          {
+            bote.classList.add("botao1");
+            bote.innerHTML = "Fechar pedido";
+          }
+          else
+          {
+            bote.classList.remove("botao1");
+            bote.classList.add("botao");
+
+            bote.innerHTML = "<p>Selecione os 3 itens</p><p> para fechar o pedido</p>";
+          }
+
+        }
+        function bebida(n) 
+        {
+          if(n!=b)
+          {
+            itens[b].classList.remove("itens1");
+            ci[b].classList.remove("c1i1");
+
+            itens[n].classList.add("itens1");
+            ci[n].classList.add("c1i1");
+
+            b = n;
+          } 
+          else if(n == b)
+          {
+            itens[n].classList.toggle("itens1");
+            ci[n].classList.toggle("c1i1");
+            b = n;         
+            
+          }
+
+          countB = itens[n].classList.contains("itens1");
+          
+          if(countP && countB && countS == true)
+          {
+            bote.classList.add("botao1");
+            bote.innerHTML = "Fechar pedido";
+          }
+          else
+          {
+            bote.classList.remove("botao1");
+            bote.classList.add("botao");
+            bote.innerHTML = "<p>Selecione os 3 itens</p><p> para fechar o pedido</p>";
+          }
+
+        }
+      
+
+      </script>
+  </body>
+</html>
